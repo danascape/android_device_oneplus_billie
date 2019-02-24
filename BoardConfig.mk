@@ -104,7 +104,6 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno619L
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Treble
-BOARD_VNDK_RUNTIME_DISABLE := true
 BOARD_VNDK_VERSION := current
 
 # Inherit from the proprietary version
