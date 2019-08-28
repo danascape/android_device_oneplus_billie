@@ -63,6 +63,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
+# ANT+
+PRODUCT_PACKAGES += \
+    AntHalService
+
 # Bluetooth
 PRODUCT_PACKAGES += \
    BluetoothQti
