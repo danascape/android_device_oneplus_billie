@@ -4,3 +4,5 @@ type op2_file, file_type;
 
 # sysfs
 type sysfs_oem, sysfs_type, fs_type;
+type sysfs_ssr, sysfs_type, fs_type;
+type sysfs_ssr_toggle,  sysfs_type, fs_type;
