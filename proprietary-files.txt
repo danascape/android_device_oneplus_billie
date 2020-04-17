@@ -1,3 +1,5 @@
+# All unpinned blobs below are extracted from OnePlusN10-user-10-QKQ1.200830.002-2103251959-release-keys
+
 # ANT
 -lib/libantradio.so
 -lib64/libantradio.so
