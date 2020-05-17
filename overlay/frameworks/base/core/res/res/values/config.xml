@@ -533,4 +533,11 @@
          -->
     <string name="config_mainBuiltInDisplayCutout">M -399 69 A 40 40 0 0 1 -479 69 A 40 40 0 0 1 -399 69 Z M -480,0 L -400,0 Z109 M -540,0 L -540,109 Z</string>
 
+    <!-- The default refresh rate. Apollo manages this using the peak refresh rate setting, so set
+         this value to 0 so it has no effect. -->
+    <integer name="config_defaultRefreshRate">0</integer>
+
+    <!-- The default peak refresh rate. -->
+    <integer name="config_defaultPeakRefreshRate">90</integer>
+
 </resources>
