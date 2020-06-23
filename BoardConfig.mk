@@ -102,6 +102,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_BOARD_PLATFORM := lito
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno619L
 
+# Sepolicy - billie
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Telephony
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 

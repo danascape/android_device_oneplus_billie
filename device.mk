@@ -33,6 +33,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
+# fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
