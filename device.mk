@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
     OnePlusIconShapeRoundedRectOverlay \
     OnePlusIconShapeSquareOverlay \
     OnePlusIconShapeSquircleOverlay \
-    OnePlusIconShapeTeardropOverlay
+    OnePlusIconShapeTeardropOverlay \
+    OPFrameworkConfigOverlay
 
 # Screen density
 TARGET_SCREEN_HEIGHT := 2400
