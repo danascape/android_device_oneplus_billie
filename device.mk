@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
