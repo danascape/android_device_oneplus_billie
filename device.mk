@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.base@1.0
 
+# Partitions - Dynamic
+PRODUCT_BUILD_SUPER_PARTITION := false
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom
