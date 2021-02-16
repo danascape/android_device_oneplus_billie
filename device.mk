@@ -65,7 +65,7 @@ PRODUCT_PACKAGES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService
+    AntHalService-Soong
 
 # Bluetooth
 PRODUCT_PACKAGES += \
