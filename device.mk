@@ -42,7 +42,9 @@ AB_OTA_PARTITIONS += \
     boot \
     product \
     recovery \
-    system
+    system \
+    vbmeta \
+    vbmeta_system
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
