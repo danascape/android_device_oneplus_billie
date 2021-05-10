@@ -48,6 +48,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 NEED_KERNEL_MODULE_SYSTEM := true
 
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/billie-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/billie
 
