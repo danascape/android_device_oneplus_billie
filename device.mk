@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget
 
+# Soong Namespace
+PRODUCT_SOONG_NAMESPACES += \
+    device/oneplus/billie
+
 # Screen density
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
