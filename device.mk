@@ -434,7 +434,8 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    libchrome.vendor
+    libchrome.vendor \
+    libjni_shim
 
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0:64 \
