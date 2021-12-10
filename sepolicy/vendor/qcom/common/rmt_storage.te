@@ -1,2 +1,5 @@
+# rmt_storage - rmt_storage daemon
+type rmt_storage, domain;
+
 # Allow rmt_storage to read and write to oem_block_device
 allow rmt_storage oem_block_device:blk_file rw_file_perms;

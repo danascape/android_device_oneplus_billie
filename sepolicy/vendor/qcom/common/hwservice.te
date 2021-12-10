@@ -1,1 +1,4 @@
+type hal_datafactory_hwservice, hwservice_manager_type;
 type hal_imsfactory_hwservice, hwservice_manager_type;
+type hal_iwlan_hwservice, hwservice_manager_type;
+type hal_perf_hwservice, hwservice_manager_type;

@@ -1,3 +1,5 @@
+type cnd, domain;
+
 binder_call(radio, cnd)
 
 allow radio hal_datafactory_hwservice:hwservice_manager find;

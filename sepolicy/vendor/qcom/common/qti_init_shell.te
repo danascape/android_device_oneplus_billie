@@ -1,3 +1,5 @@
+type qti_init_shell, domain;
+
 # Allow qti_init_shell to write to sysfs_fsc
 allow qti_init_shell sysfs_fsc:file w_file_perms;
 
