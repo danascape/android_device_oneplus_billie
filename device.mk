@@ -538,6 +538,7 @@ PRODUCT_PACKAGES += \
     init.usb.configfs.rc \
     vendor.oem_ftm.rc \
     vendor.oem_ftm_svc_disable.rc \
+    ueventd.oneplus.rc \
     ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \
