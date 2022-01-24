@@ -59,9 +59,6 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        system_ext/lib64/libnxpnfc_nci_jni.so)
-            "${PATCHELF}" --add-needed libjni_shim.so "${2}"
-            ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.bitra.so)
             "${SIGSCAN}" -p "CF 0A 00 94" -P "1F 20 03 D5" -f "${2}"
             ;;
