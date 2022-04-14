@@ -36,9 +36,11 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResCommon \
+    FrameworksResTarget \
     SystemUIResCommon \
     TelephonyResCommon \
     WifiResCommon \
+    WifiResTarget \
     OnePlusN10SettingsProvider
 
 # Soong Namespace
