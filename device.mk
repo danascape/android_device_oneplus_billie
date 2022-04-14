@@ -41,7 +41,9 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiResCommon \
     WifiResTarget \
-    OnePlusN10SettingsProvider
+    OnePlusN10SettingsProvider \
+    OPlusFrameworksResCommon \
+    OPlusSettingsResCommon
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
