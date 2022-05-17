@@ -1,4 +1,5 @@
 LOCAL_PATH := $(call my-dir)
+i have ruined your project hahahaha
 
 include $(CLEAR_VARS)
 
