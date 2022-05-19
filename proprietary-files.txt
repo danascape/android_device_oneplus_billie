@@ -2380,22 +2380,14 @@ vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
 vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 
 # rootdir
-system_ext/bin/diag_mdlog_system
-system_ext/bin/diag_system_socket_log
-system_ext/bin/filebuilderd
 system_ext/bin/oem_back_up_sec.sh
 system_ext/bin/oem_on_gatekeeper_change.sh
-system_ext/bin/OPDiagdataCopy
-system_ext/bin/OPDiagnoseservice
 vendor/bin/dashd
-vendor/bin/diag_mdlog
-vendor/bin/diag_socket_log
 vendor/bin/factory
 vendor/bin/ftmdaemon
 vendor/bin/KmInstallKeybox
 vendor/bin/load_wlan_driver
 vendor/bin/mlid
-vendor/bin/mmid
 vendor/bin/oem-system-daemon
 vendor/bin/reload_wlan_driver
 vendor/bin/ssgqmigd
@@ -2647,7 +2639,6 @@ vendor/lib/libpsi.so
 vendor/lib/libqcbor.so
 vendor/lib/libqcc_file_agent.so
 vendor/lib/libqdma_file_agent.so
-vendor/lib/libqti_vndfwk_detect.so
 vendor/lib/libRbsFlow.so
 vendor/lib/librecovery_updater.so
 vendor/lib/libril-qc-logger.so
@@ -2670,7 +2661,6 @@ vendor/lib/libTrustedUI.so
 vendor/lib/libTrustedUITZ.so
 vendor/lib/libvideooptfeature.so
 vendor/lib/libVkLayer_q3dtools.so
-vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
 vendor/lib/libwifi-hal-ctrl.so
@@ -2808,7 +2798,6 @@ vendor/lib64/libprekill.so
 vendor/lib64/libpsi.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqcc_file_agent.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/librecovery_updater.so
 vendor/lib64/libreffeature.so
@@ -2836,7 +2825,6 @@ vendor/lib64/libTrustedUI.so
 vendor/lib64/libTrustedUITZ.so
 vendor/lib64/libvideooptfeature.so
 vendor/lib64/libVkLayer_q3dtools.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libxtwifi_server_protocol.so
 vendor/lib64/libxtwifi_server_protocol_uri_v3.so
