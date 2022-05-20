@@ -76,19 +76,6 @@
         </interface>
     </hal>
 
-    <!-- suiyuan@ODM_WT.NW.NV, 2020/05/11, Add for FTM to get some device prop info begin -->
-    <hal format="hidl">
-        <name>vendor.qti.hardware.radio.qcriNvOpt</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IqcriNvOpt</name>
-            <instance>qcrinvopt0</instance>
-            <instance>qcrinvopt1</instance>
-        </interface>
-    </hal>
-    <!-- suiyuan@ODM_WT.NW.NV, 2020/05/11, Add for FTM to get some device prop info end -->
-
     <!-- qcrilhook -->
     <hal format="hidl" override="true">
         <name>vendor.qti.hardware.radio.qcrilhook</name>

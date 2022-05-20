@@ -26,6 +26,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/billie/billie-vendor.mk)
 
+# VNDK
+PRODUCT_USE_PRODUCT_VNDK_OVERRIDE := true
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
