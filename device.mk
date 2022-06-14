@@ -503,8 +503,6 @@ PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
 # USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.1-service-qti
 
 # Vibrator
 PRODUCT_PACKAGES += \
