@@ -233,6 +233,20 @@ system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 system_ext/priv-app/WfdService/lib/arm64/libwfdnative.so
 -system_ext/priv-app/WfdService/WfdService.apk
 
+# ODM
+odm/etc/media_profiles_V1_0.xml
+odm/etc/odm_feature_list
+odm/etc/vendor-project.xml
+odm/etc/acdbdata/acdb_version
+odm/etc/acdbdata/Bluetooth_cal.acdb
+odm/etc/acdbdata/General_cal.acdb
+odm/etc/acdbdata/Global_cal.acdb
+odm/etc/acdbdata/Handset_cal.acdb
+odm/etc/acdbdata/Hdmi_cal.acdb
+odm/etc/acdbdata/Headset_cal.acdb
+odm/etc/acdbdata/Speaker_cal.acdb
+odm/etc/acdbdata/workspaceFile.qwsp
+
 # Vendor
 -vendor/app/CACertService/CACertService.apk
 -vendor/app/CneApp/CneApp.apk
