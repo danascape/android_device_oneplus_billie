@@ -9,7 +9,6 @@ tunnel.audio.encode = true
 use.voice.path.for.pcm.voip=true
 
 # Bluetooth
-ro.bluetooth.library_name=libbluetooth_qti.so
 persist.vendor.btstack.aac_frm_ctl.enabled=true
 persist.vendor.btstack.enable.lpa=true
 persist.vendor.btstack.enable.twsplus=false

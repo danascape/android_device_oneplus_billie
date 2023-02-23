@@ -1,0 +1,5 @@
+# Allow bluetooth to check incremental prop
+get_prop(bluetooth, incremental_prop)
+
+# Allow bluetooth to read proc_filesystems
+allow bluetooth proc_filesystems:file read;
