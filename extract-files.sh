@@ -60,6 +60,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system_ext/lib64/libwfdnative.so)
+            sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
+            ;;
         system_ext/lib64/libnxpnfc_nci_jni.so)
             "${PATCHELF}" --add-needed libjni_shim.so "${2}"
             ;;
