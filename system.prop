@@ -8,6 +8,9 @@ ro.audio.monitorRotation=true
 tunnel.audio.encode = true
 use.voice.path.for.pcm.voip=true
 
+# Atfwd client
+persist.vendor.radio.atfwd.start=true
+
 # Bluetooth
 persist.vendor.btstack.aac_frm_ctl.enabled=true
 persist.vendor.btstack.enable.lpa=true
