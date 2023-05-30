@@ -17,7 +17,7 @@
 #define LOG_TAG "fastcharge@1.0-service.billie"
 
 #define FASTCHARGE_DEFAULT_SETTING true
-#define FASTCHARGE_PATH "/proc/dash_4300_4p45_exit"
+#define FASTCHARGE_PATH "/proc/enhance_dash"
 
 #include "FastCharge.h"
 #include <android-base/logging.h>

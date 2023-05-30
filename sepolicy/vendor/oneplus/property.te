@@ -1,2 +1,5 @@
+# Fastcharge
+vendor_internal_prop(vendor_fastcharge_prop)
+
 # Fingerprint
 vendor_public_prop(vendor_fp_prop);

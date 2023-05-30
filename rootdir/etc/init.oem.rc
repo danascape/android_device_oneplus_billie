@@ -132,6 +132,7 @@ on fs
     chown system system /proc/wireless/quiet_mode
     chown system system /proc/wireless/fast_skin_threld
 
+    chmod 0660 /proc/enhance_dash
     chown system system /proc/enhance_dash
 
 #gerry.ding@bsp, add for s2 reset config
