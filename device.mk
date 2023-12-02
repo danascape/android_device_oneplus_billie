@@ -225,6 +225,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    libcamera2ndk_vendor \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
@@ -287,6 +288,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    vendor.oneplus.fingerprint.extension@1.0.vendor
 
 # Framework detect
 PRODUCT_PACKAGES += \
@@ -400,6 +405,9 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
 # NFC
+PRODUCT_PACKAGES += \
+    libchrome.vendor
+
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0:64 \
     android.hardware.nfc@1.1:64 \

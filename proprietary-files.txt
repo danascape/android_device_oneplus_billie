@@ -50,7 +50,6 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -68,20 +67,14 @@ vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libdiraceffect.so
 vendor/lib/soundfx/libhaptic_effect.so
 vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
-vendor/lib64/liba2dpoffload.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -94,15 +87,10 @@ vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
-vendor/lib64/soundfx/libvolumelistener.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio-Hardware
@@ -335,7 +323,6 @@ vendor/lib/libarcsoft_smart_denoise.so
 vendor/lib/libarcsoft_tricam_calibration.so
 vendor/lib/libarcsoft_tricam_verification.so
 vendor/lib/libbitmlengine.so
-vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamerapostproc.bitra.so
 vendor/lib/libcamerapostproc.so
@@ -386,7 +373,6 @@ vendor/lib/libvl53l1_daemon.so
 vendor/lib/sensors.hal.tof.so
 vendor/lib/vendor.oneplus.hardware.camera@1.0.so
 vendor/lib/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.bitra.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
@@ -525,7 +511,6 @@ vendor/lib64/libarcsoft_tricam_calibration.so
 vendor/lib64/libarcsoft_tricam_verification.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libc++_shared.so
-vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamerapostproc.bitra.so
 vendor/lib64/libcamerapostproc.so
@@ -592,7 +577,6 @@ vendor/lib64/libyuv2.so
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/vendor.oneplus.hardware.camera@1.0.so
 vendor/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.bitra.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
@@ -699,15 +683,11 @@ vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/lib64/libdpps.so
-vendor/lib64/libdisplayconfig.qti.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmutils.so
 
 # Display (SDM)
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libqseed3.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-diag.so
@@ -820,14 +800,12 @@ vendor/etc/permissions/com.fingerprints.fpmmi.xml
 -vendor/framework/com.fingerprints.fpmmi.jar
 vendor/lib/fp_hal_extension.so
 vendor/lib/libRbsFlow.so
-vendor/lib/vendor.oneplus.fingerprint.extension@1.0.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/hw/fingerprint.egis.default.so
 vendor/lib64/hw/libets_teeclient_v2.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
-vendor/lib64/vendor.oneplus.fingerprint.extension@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Gatekeeper
@@ -1104,7 +1082,6 @@ vendor/lib64/hw/android.hardware.nfc@1.0-impl.so
 vendor/lib64/ese_client.so
 vendor/lib64/ese_spi_nxp.so
 vendor/lib64/hal_libnfc.so
-vendor/lib64/libchrome.so
 vendor/lib64/nfc_nci_nxp.so
 vendor/lib64/vendor.nxp.eventprocessor@1.0.so
 
