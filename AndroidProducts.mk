@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_billie.mk
+    $(LOCAL_DIR)/aosp_billie.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_billie-user \
-    lineage_billie-userdebug \
-    lineage_billie-eng
+    aosp_billie-user \
+    aosp_billie-userdebug \
+    aosp_billie-eng

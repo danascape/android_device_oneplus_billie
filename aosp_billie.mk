@@ -22,13 +22,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/billie/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Set shipping API level (Indicates the first api level, device has been commercially launched on)
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Device identifiers.
-PRODUCT_NAME := lineage_billie
+PRODUCT_NAME := aosp_billie
 PRODUCT_DEVICE := billie
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
