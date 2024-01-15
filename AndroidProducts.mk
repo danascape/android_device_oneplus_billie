@@ -15,7 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_billie.mk
+    $(LOCAL_DIR)/lineage_billie.mk \
+    $(LOCAL_DIR)/lmodroid_billie.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_billie-userdebug
+    lineage_billie-userdebug \
+    lmodroid_billie-userdebug
